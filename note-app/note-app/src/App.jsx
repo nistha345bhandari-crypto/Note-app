@@ -12,7 +12,7 @@ function App() {
     const [search, setSearch] = useState("");
     const [editId, setEditId] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
-    // Get notes from localStorage
+  
     useEffect(() => {
 
         const savedNotes =
@@ -33,7 +33,7 @@ function App() {
 
     }, [notes,isLoaded]);
 
-    // Add or update note
+  
     function handleSubmit(e) {
 
         e.preventDefault();
@@ -76,7 +76,7 @@ function App() {
         setContent("");
     }
 
-    // Delete note
+
     function deleteNote(id) {
 
         setNotes(
