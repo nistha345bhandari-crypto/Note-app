@@ -94,7 +94,7 @@ function App() {
 
     }
 
-    // Search notes
+
     const filteredNotes = notes.filter((note) =>
         note.title
             .toLowerCase()
