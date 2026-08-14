@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./App.css";
+import "./app.css";
 
 import NoteForm from "./components/NoteForm";
 import NoteList from "./components/NoteList";
